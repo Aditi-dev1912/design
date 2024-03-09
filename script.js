@@ -7,8 +7,8 @@ $(".fa-bars").click(function(){
 });
 
 $(window).on("load scroll",function(){
-      $(".fa-bars").removeclass("fa-times");
-      $("nav").removeclass("nav-active");
+      $(".fa-bars").remove("fa-times");
+      $("nav").remove("nav-active");
 });
 
 $(".project").magnificPopup({
